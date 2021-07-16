@@ -1,1 +1,8 @@
-{"Modules":"TextModul1"}
+{
+  "Modules":
+  [
+    {
+    "Modul 1":"TextModul1"
+    }
+  ]
+}
