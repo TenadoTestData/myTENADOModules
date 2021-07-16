@@ -1,13 +1,70 @@
 {
-  "Modules": 
-   [
-     {"A": "https://image.freepik.com/free-photo/comfortable-pillow-sofa-decoration-outdoor-balcony_74190-2419.jpg",
-     "B": "30 Lorem ipsum dolor sit ameti",
-     "C":"100 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ",
-     "D":"https://tenado.de/de/news-themen/",
-     "E":1625090400,
-     "F":1609455600,
-     "G":0
+  "Modules": [
+    {
+      "ModuleName": "HiltiLibrary",
+      "RegName": "HiltiLibrary",
+      "RegFullPath": "SOFTWARE\\TENADO\\TenadoLibraries\\HiltiLibrary",
+      "ModuleId": 91,
+      "Version": "1.0.1001",
+      "Category": 3,
+      "Priority": 9999,
+      "Link": "https://service-center-downloads.s3.eu-central-1.amazonaws.com/module/91/TENADO_CAD_3D_Herstellerbibliothek_Hilti_V1.0.1001.exe?response-content-disposition=attachment%3B%20filename%3D%22TENADO_CAD_3D_Herstellerbibliothek_Hilti_V1.0.1001.exe%22%3B%20filename%2A%3Dutf-8%27%27TENADO_CAD_3D_Herstellerbibliothek_Hilti_V1.0.1001.exe&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAILRODFV6YTZF2CTQ%2F20210413%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20210413T113547Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=90000&amp;X-Amz-Signature=a52eec20442b50a7075a417a251c5e6918bf902c9af50b8316572d00019ef5dc",
+      "Hash": "c90d5d33f00a58c9cf623d92b80d9ae4",
+      "Description": "Hiermit installieren sie die Bauteilebibliothek des Herstellers Hilti.",
+      "DisplayName": "TENADO CAD 3D Herstellerbibliothek Hilti",
+      "UpdateType": 1,
+      "Size": 4249712,
+      "StandAlone": false,
+      "InstallerState": 1,
+      "Dependencies": [
+        {
+          "DependencyName": "TENADO CAD 3D 16",
+          "DependencyRegName": "TENADO CAD 3D 16",
+          "MinVersion": "16.0.6800",
+          "MaxVersion": "16.9.9999",
+          "Optional": false
+        }
+      ]
+    },
+    {
+      "ModuleName": "TENADOPARTS3D19",
+      "RegName": "TENADOPARTS3D19",
+      "RegFullPath": "SOFTWARE\\TENADO\\TenadoZusatzmodule\\Products\\TENADOPARTS3D19",
+      "ModuleId": 76,
+      "Version": "19.6.8034",
+      "Category": 1,
+      "Priority": 600,
+      "Link": "https://service-center-downloads.s3.eu-central-1.amazonaws.com/module/76/TENADO_PARTS_V19_DE_x86_Ver19.6.8034_setup.exe?response-content-disposition=attachment%3B%20filename%3D%22TENADO_PARTS_V19_DE_x86_Ver19.6.8034_setup.exe%22%3B%20filename%2A%3Dutf-8%27%27TENADO_PARTS_V19_DE_x86_Ver19.6.8034_setup.exe&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAILRODFV6YTZF2CTQ%2F20210413%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20210413T113547Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=90000&amp;X-Amz-Signature=31a97316eeeca05468543cebab23baf2fe918f025b53fd4df5f8d5cd9e9dfe5a",
+      "Hash": "872550a6e2920ac576083e8f4388d031",
+      "Description": "Bauteilkataloge namhafter Hersteller inkl. DIN-Normteile 64-Bit",
+      "DisplayName": "TENADO PARTS 3D",
+      "UpdateType": 1,
+      "Size": 955585448,
+      "StandAlone": false,
+      "InstallerState": 1,
+      "Dependencies": [
+        {
+          "DependencyName": "TENADO CAD 3D 16",
+          "DependencyRegName": "TENADO CAD 3D 16",
+          "MinVersion": "16.0.0000",
+          "MaxVersion": "16.9.9999",
+          "Optional": false
+        },
+        {
+          "DependencyName": "TENADO CAD ST 16",
+          "DependencyRegName": "TENADO CAD ST 16",
+          "MinVersion": "16.0.0000",
+          "MaxVersion": "16.9.9999",
+          "Optional": false
+        },
+        {
+          "DependencyName": "TENADOCAD3DDEMO16",
+          "DependencyRegName": "TENADOCAD3DDEMO16",
+          "MinVersion": "16.0.0000",
+          "MaxVersion": "16.9.9999",
+          "Optional": false
+        }
+      ]
     }
-   ]
+  ]
 }
