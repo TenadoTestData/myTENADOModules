@@ -1,5 +1,5 @@
 {
-  "Modules": [
+  "AdditionalModules": [
     {
       "ModuleName": "HiltiLibrary",
       "RegName": "HiltiLibrary",
