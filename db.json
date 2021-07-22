@@ -1,5 +1,7 @@
 {
-  "AdditionalModules": [
+  "AdditionalModules": 
+  {"AdditionalModuleData":
+  [
     {
       "ModuleName": "HiltiLibrary",
       "RegName": "HiltiLibrary",
@@ -66,5 +68,5 @@
         }
       ]
     }
-  ]
+  ]}
 }
